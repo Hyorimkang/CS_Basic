@@ -28,6 +28,14 @@ namespace CS_Basic
             Console.WriteLine(int.MaxValue);
             Console.WriteLine(double.MinValue);
             Console.WriteLine(double.MaxValue);
+
+            //sizeof 연산자 연습
+            Console.WriteLine("int : " + sizeof(int));
+            Console.WriteLine("double : " + sizeof(double));
+            Console.WriteLine("long : " + sizeof(long));
+            Console.WriteLine("float : " + sizeof(float));
+            Console.WriteLine("char : " + sizeof(char));
+            Console.WriteLine("bool : " + sizeof(bool));
         }
     }
 }   
