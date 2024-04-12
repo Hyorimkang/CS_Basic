@@ -10,7 +10,13 @@ namespace CS_Basic
     {
         static void Main(string[] args) { 
             Console.WriteLine("Hello World");
-        
+
+
+            //오버플로우 연습
+            int a = 200000000;
+            int b = 100000000;
+            Console.WriteLine(a+b);
+
         }
     }
 }
